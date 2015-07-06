@@ -28,19 +28,20 @@ black = #2C2C2C
 	background: #F8F8F8;
 	color: #6E7E7E;
 	margin-bottom: 0;
-	padding-bottom: 15px;
+	height: 85px;
+
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #6E7E7E;
-	font-size: 1em;
-	padding: 30px 10px;
+	font-size: 1.5em;
 	text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
 	color:  #A8C727;
-	text-decoration: underline;
+	text-decoration: none;
+	border: 2px solid #A8C727;
 }
 
 
@@ -51,12 +52,17 @@ black = #2C2C2C
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
-	font-size: 1.3em;
+	font-size: 1em;
+	padding: none;
 }
 
 .logo {
 	height: 60px;
 	width: 60px;
+}
+
+.navbar-right {
+	margin: 18px 10% 15px 0;
 }
 
 /*Jumbotron*/
@@ -100,14 +106,15 @@ black = #2C2C2C
 .about-me{
 	font-family: tahoma, geneva, sans-serif;
 	margin: 1em auto;
-	max-width: 90%;
 	height: 100%;
+	background-color: #F8F8F8;
 	color: 	#6E7E7E;
+	padding: 3em .5em;
 }
 
 .accordion dt {
-	background: DeepSkyBlue;
-	border-bottom: 1px solid DodgerBlue;
+	background: #A8C727;
+	border-bottom: 1px solid #A8C727;
 	border-radius: 7px 7px 0 0;
 	color: white;
 	font-size: 1.5em;
@@ -132,41 +139,25 @@ black = #2C2C2C
 }
 
 .accordion dt.open {
-	background: DarkOrange;
-	border-bottom-color: Chocolate;
+	background: #C9302C;
+	border-bottom-color: #C9302C;
 	border-radius: 7px 7px 0 0;
 }
 
 .accordion dd {
-	border: 1px solid DeepSkyBlue;
+	border: 1px solid #A8C727;
 	border-top: none;
 	border-radius: 0 0 7px 7px;
 	padding: 1em;
 }
 
 .jsOn .accordion dd {
- border-color: Chocolate;
+ border-color: #C9302C;
+ background-color: #fff;
 }
 
 .accordion dd p {
 	text-align: left;
-}
-
-
-
-/*Why Work With Me*/
-
-.why {
-	padding-bottom: 3em;
-	background-color: #F8F8F8;
-}
-
-.why h2, p, .why h1.page-header {
-	text-align: center;
-}
-
-.why-options {
-	padding: 0 1.7em 1em;
 }
 
 /*Portfolio*/
@@ -188,29 +179,23 @@ black = #2C2C2C
 }
 
 .portfolio {
-	padding: 3em 0;
+	padding: 3em .5em;
 }
 
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail {
 	border: none;
-	opacity: .4;
-}
-
-a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 	opacity: 1;
 }
 
-
-
-
-
-
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+	opacity: .7;
+}
 
 /*Footer*/
 
 footer {
 	padding-top: 2em;
-	background: #F8F8F8;
+	background: #fff;
 	text-align: center;
 	color: #6E7E7E;
 }
@@ -224,7 +209,7 @@ footer .footer-col {
     margin-bottom: 10px;
 }
 
-.footer-button {
+/*.footer-button {
 	background-color: #6E7E7E;
 	border-color: #fff;
 	color: #fff;
@@ -234,7 +219,7 @@ footer .footer-col {
 	background-color: #fff;
 	border: none;
 	color: #6E7E7E
-}
+}*/
 
 address, .about-me{
 	font-size: 1.25em;
