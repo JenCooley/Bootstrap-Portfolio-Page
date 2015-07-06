@@ -1,0 +1,300 @@
+/*Colors
+green = #A8C727
+yellow = #FBC044
+blue = #13888A
+light grey = #EBE7DE, #F8F8F8
+grey = #6E7E7E
+black = #2C2C2C
+
+*/
+
+/*Global*/
+
+.btn-default{
+	border-color: #6E7E7E;
+	color: #6E7E7E;
+}
+
+.btn-default:focus, .btn-default:hover{
+	color: #fff;
+	background-color: #6E7E7E;
+}
+
+
+/*Navigation*/
+
+.navbar-default {
+	border: none;
+	background: #F8F8F8;
+	color: #6E7E7E;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #6E7E7E;
+	font-size: 1em;
+	padding: 30px 10px;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color:  #A8C727;
+	text-decoration: underline;
+}
+
+
+.navbar-toggle {
+	margin: 25px 15px 10px;
+	padding: 15px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+	font-size: 1.3em;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+	text-align: center;
+	height: 500px;
+	color: #fff;
+	background-image: url("../img/pcandnotebook.jpg");
+	background-size: cover;
+	margin-bottom: 0;
+	/*opacity: 0.7;*/
+}
+
+.jumbotron .btn-group-lg > .btn, .btn-lg {
+	background-color: ;
+	border: none;
+}
+
+.eye-catcher{
+	margin-top: 75px;
+	}
+
+.heading > h1{
+	text-shadow: 1px 1px 1px #000;
+}
+
+.drop-shadow {
+	background-color: #A8C727;
+	padding: 3px 6px;
+	opacity: 0.75;
+
+}
+ 
+.jumbotron p {
+	margin-top: 30px;
+}
+
+/*About Me*********************************/
+
+.about-me{
+	font-family: tahoma, geneva, sans-serif;
+	margin: 1em auto;
+	max-width: 90%;
+	height: 100%;
+	color: 	#6E7E7E;
+}
+
+.accordion dt {
+	background: DeepSkyBlue;
+	border-bottom: 1px solid DodgerBlue;
+	border-radius: 7px 7px 0 0;
+	color: white;
+	font-size: 1.5em;
+	margin-top: .222em;
+	padding: 0.5em 1em;
+}
+
+.jsOn .accordion dt {
+	border-radius: 7px;
+	cursor: pointer;
+	transition: all 300ms;
+}
+
+.jsOn .accordion dt:before{
+	content: '+';
+	margin-right: 0.5em;
+}
+
+.accordion dt.open:before {
+	content: '\2013';
+	margin-right: 0.7em;
+}
+
+.accordion dt.open {
+	background: DarkOrange;
+	border-bottom-color: Chocolate;
+	border-radius: 7px 7px 0 0;
+}
+
+.accordion dd {
+	border: 1px solid DeepSkyBlue;
+	border-top: none;
+	border-radius: 0 0 7px 7px;
+	padding: 1em;
+}
+
+.jsOn .accordion dd {
+ border-color: Chocolate;
+}
+
+.accordion dd p {
+	text-align: left;
+}
+
+
+
+/*Why Work With Me*/
+
+.why {
+	padding-bottom: 3em;
+	background-color: #F8F8F8;
+}
+
+.why h2, p, .why h1.page-header {
+	text-align: center;
+}
+
+.why-options {
+	padding: 0 1.7em 1em;
+}
+
+/*Portfolio*/
+
+.page-header, .see-more {
+	text-align: center;
+	color: #6E7E7E;
+	border-bottom: none;
+}
+
+.page-header {
+	margin-top: 50px;
+}
+
+.see-more {
+	text-decoration: underline;
+	font-size: 1.25em;
+	
+}
+
+.portfolio {
+	padding: 3em 0;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail {
+	border: none;
+	opacity: .4;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+	padding-top: 2em;
+	background: #F8F8F8;
+	text-align: center;
+	color: #6E7E7E;
+}
+
+footer h3 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+footer .footer-col {
+    margin-bottom: 10px;
+}
+
+.footer-button {
+	background-color: #6E7E7E;
+	border-color: #fff;
+	color: #fff;
+}
+
+.footer-button:hover, .footer-button:focus {
+	background-color: #fff;
+	border: none;
+	color: #6E7E7E
+}
+
+address, .about-me{
+	font-size: 1.25em;
+}
+
+.copyright {
+	padding: 8px;
+}
+
+.btn-outline {
+    margin-top: 5px;
+    border: solid 2px #6E7E7E;
+    font-size: 20px;
+    color: #6E7E7E;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #AC9494;
+    background: #fff;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #6E7E7E;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+
+
+/*MEDIA QUERIES**************************************************************************/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.accordion {
+		width: 80%;
+		margin: 0 auto;
+	}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
